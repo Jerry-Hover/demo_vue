@@ -24,9 +24,6 @@ export default new Router({
 })
 
 
-export const testRouterMap = [
-  { path:'/demo3', name:'test3', component:_import_( 'test/first_demo' ), meta:{ title:'测试页-3' } },
-]
 
 
 

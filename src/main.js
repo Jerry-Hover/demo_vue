@@ -4,10 +4,11 @@
 import Vue from 'vue'
 import App from './App'
 import router from './router'
-import VueWechatTitle from 'vue-wechat-title';
+import ElementUI from 'element-ui'
+import WechatTitle from 'vue-wechat-title';
 
-
-Vue.use(VueWechatTitle)
+Vue.use(ElementUI)
+Vue.use(WechatTitle)
 Vue.config.productionTip = false
 
 new Vue({
@@ -15,6 +16,5 @@ new Vue({
   router,
   template: '<App/>',
   components: { App }
-
 })
 

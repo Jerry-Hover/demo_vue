@@ -10,10 +10,18 @@
     "build": "node build/build.js"
   },
   "dependencies": {
+    "ajv": "^6.5.3",
+    "ajv-keywords": "^3.2.0",
+    "echarts": "^4.2.0-rc.1",
+    "element-theme-default": "^1.4.13",
+    "js-cookie": "2.1.4",
+    "node-sass": "^4.9.3",
+    "nprogress": "^0.2.0",
+    "sass-loader": "^7.1.0",
+    "style-loader": "^0.23.0",
     "vue": "^2.5.2",
     "vue-router": "^3.0.1",
-    "vue-wechat-title": "^2.0.5",
-    "js-cookie": "2.1.4"
+    "vue-wechat-title": "^2.0.5"
   },
   "devDependencies": {
     "autoprefixer": "^7.1.2",
@@ -27,12 +35,14 @@
     "babel-preset-stage-2": "^6.22.0",
     "chalk": "^2.0.1",
     "copy-webpack-plugin": "^4.0.1",
-    "css-loader": "^0.28.0",
-    "extract-text-webpack-plugin": "^3.0.0",
+    "css-loader": "^0.28.11",
+    "element-ui": "^2.4.7",
+    "extract-text-webpack-plugin": "^3.0.2",
     "file-loader": "^1.1.4",
     "friendly-errors-webpack-plugin": "^1.6.1",
     "html-webpack-plugin": "^2.30.1",
     "node-notifier": "^5.1.2",
+    "normalize.css": "^8.0.0",
     "optimize-css-assets-webpack-plugin": "^3.2.0",
     "ora": "^1.2.0",
     "portfinder": "^1.0.13",
@@ -49,7 +59,7 @@
     "vue-template-compiler": "^2.5.2",
     "webpack": "^3.6.0",
     "webpack-bundle-analyzer": "^2.9.0",
-    "webpack-dev-server": "^2.9.1",
+    "webpack-dev-server": "^2.11.3",
     "webpack-merge": "^4.1.0"
   },
   "engines": {
