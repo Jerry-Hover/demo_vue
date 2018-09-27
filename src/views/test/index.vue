@@ -9,7 +9,12 @@
       </ul>
     </div>
 
-    <el-button :plain="true" @click="open2">成功</el-button>
+
+    <el-button
+      plain
+      @click="open6">
+      错误
+    </el-button>
 
   </div>
 </template>
@@ -30,17 +35,18 @@
           { label:'测试页-2', link:'demo2' },
           { label:'测试页-3', link:'demo3' },
         ]
-
       }
     },
 
     methods: {
-      open2() {
-        this.$message({
-          message: '恭喜你，这是一条成功消息',
-          type: 'success'
+
+      open6() {
+        this.$notify.error({
+          title: '错误',
+          message: '这是一条错误的提示消息'
         });
-      },
+      }
+
     }
 
   }
